@@ -1,0 +1,18 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading);
+    text-transform: uppercase;
+    margin-bottom: 1.3rem;
+}
+p {
+    letter-spacing: 0.06rem;
+    line-height: 1.5rem;
+}
+
+footer ul li a {
+    font-family: var(--heading);
+}

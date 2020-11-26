@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Electric, you are special">
+    <meta property="og:url" content="https://evelynfredin.github.io/electric/">
+    <meta property="og:image"
+        content="https://image.freepik.com/free-vector/motorcycle-racing-virtual-world-cartoon-vector_1441-3380.jpg">
+    <meta property="og:description" content="In Electric, we look to a prosperous future in the world of motorcycles .">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/typography.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/carousel.css" />
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/assets.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <title> Electric </title>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="hero-container">
+        <nav>
+            <h1 class="logo">ELECTRIC</h1>
+            <ul>
+                <li><a href="https://www.peugeot.se/om-peugeot/kontakta-oss.html">CONTACT</a></li>
+                <li><a href="https://www.peugeot.se/om-peugeot/peugeot-sverige.html">ABOUT</a></li>
+                <li id="dropdown"><a href="#">LANGUAGE <span><svg class="drop-arrow" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7">
+                                </path>
+                            </svg></span></a>
+                    <ul class="subitem">
+                        <li class="drop-item">ENG</li>
+                        <li class="drop-item">SWE</li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <picture class="lightmode-hero">
+            <source media="(min-width: 950px)" srcset="images/hero/H_L.webp" />
+            <source media="(min-width: 800px)" srcset="images/hero/H_L_700.webp" />
+            <source media="(min-width: 600px)" srcset="images/hero/H_L_600.webp" />
+            <source media="(min-width: 0px)" srcset="images/hero/H_L_500.webp" />
+            <img class="hero" src="images/hero/H_L.webp"
+                alt="The Electric motorcycle positioned in front of a futuristic concrete building with mountains in the background" />
+        </picture>
+        <!-- darkmode -->
+        <picture class="darkmode-hero">
+            <source media="(min-width: 950px)" srcset="images/hero/H_D.webp" />
+            <source media="(min-width: 800px)" srcset="images/hero/H_D_700.webp" />
+            <source media="(min-width: 600px)" srcset="images/hero/H_D_600.webp" />
+            <source media="(min-width: 0px)" srcset="images/hero/H_D_500.webp" />
+            <img class="hero" src="images/hero/H_D.webp"
+                alt="The Electric motorcycle positioned in front of a futuristic concrete building with mountains in the background" />
+        </picture>
+
+
+    </header>
+
+    <main class="content-wrapper">
+
+        <!-- first block -->
+        <section class="special hidden">
+            <div class="box1">
+                <h2> YOU ARE SPECIAL </h2>
+                <p> Peugeot is bringing driving to the next level.
+                    We are on the go for the future. Our aim is to
+                    become one of the world’s most innovative companies.
+                    And now we are proud to present our vehicle
+                    for the future: Electric.</p>
+            </div>
+            <div class="box2">
+                <form>
+                    <input type="text" role="name-input" placeholder="Your name *"><br>
+                    <input type="email" role="email-input" placeholder="Your e-mail *"><br>
+                    <button class="submit"><span>Notify me </span><i class="fas fa-long-arrow-alt-right"></i></button>
+                </form>
+            </div>
+        </section>
+
+
+        <!--grid and slider images -->
+        <div class="section2">
+            <h2>ELECTRIC</h2>
+            <p>Here are our features for the future:</p>
+            <div class="slider">
+                <!--slider to be hidden on desktop -->
+                <div id='radios' class="slides">
+                    <input type="radio" name="radio" id="radio01" class="radio" />
+                    <input type="radio" name="radio" id="radio02" class="radio" />
+                    <input type="radio" name="radio" id="radio03" class="radio" />
+                    <div class="item first" id="item01">
+                        <img src="images/grid-images/INT_1.webp" alt="interior of the motorcycle" />
+                    </div>
+                    <div class="item" id="item02">
+                        <img src="images/grid-images/opencycle.webp" alt="close-up of the backtire" />
+                    </div>
+                    <div class="item" id="item03">
+                        <img src="images/grid-images/INT_3.webp"
+                            alt="The hood is open,Top-down,technical car platform" />
+                    </div>
+                    <div class="manualNavigation">
+                        <label class="label" id="label01" for="radio01"></label>
+                        <label class="label" id="label02" for="radio02"></label>
+                        <label class="label" id="label03" for="radio03"></label>
+                    </div>
+                </div>
+            </div>
+            <!-- desktop grid-images -->
+            <section class="grid container">
+                <div class="item-1">
+                    <img src="images/grid-images/INT_2.webp" alt="The hood is open,Top-down,technical car platform">
+                </div>
+
+                <div class="item-2"><img src="images/grid-images/INT_1.webp" alt="motorcycle interior"></div>
+
+
+                <div class="item-3"><img src="images/grid-images/INT_3.webp" alt="close-up of the back tire"></div>
+            </section>
+
+            <!-- history block -->
+            <div class="history hidden">
+                <h2>History</h2>
+                <p>Peugeot is a brand with history. The first car to carry the Peugeot name was unveiled in 1889, making
+                    Peugeot the world's second oldest car manufacturer and the oldest continuous car brand. Family
+                    business is now global business. Today we are starting a new chapter. Electric; it is the future.
+                </p>
+            </div>
+
+        </div>
+
+        <!-- environment-pics -->
+        <section class="environment-pics">
+            <picture class="lightmode-hero" id="environment">
+                <source media="(min-width: 950px)" srcset="images/environment/ENV_L.webp" />
+                <source media="(min-width: 800px)" srcset="images/environment/ENV_L_700.webp" />
+                <source media="(min-width: 0px)" srcset="images/environment/ENV_L_500.webp" />
+                <img class="environment" src="images/environment/ENV_L.webp"
+                    alt="a woman and man standing next to the Electric motorcycle with a futuristic building as a back-drop" />
+            </picture>
+            <!-- darkmode -->
+            <picture class="darkmode-hero" id="environment">
+                <source media="(min-width: 950px)" srcset="images/environment/ENV_D.webp" />
+                <source media="(min-width: 800px)" srcset="images/environment/ENV_D_700.webp" />
+                <source media="(min-width: 0px)" srcset="images/environment/ENV_D_500.webp" />
+                <img class="environment" src="images/environment/ENV_D.webp"
+                    alt="a woman and man standing next to the Electric motorcycle with a futuristic building as a back-drop" />
+            </picture>
+            <!-- alternating image test-->
+            <picture class=lightmode-hero id="movement">
+                <img class="environment" id="alternating" src="images/environment/BG.webp"
+                    alt="Electric motorcycle driving along a road in sunset with a motion-blur effect" />
+            </picture>
+            <picture class=darkmode-hero id="movement">
+                <img class="environment" id="alternating" src="images/environment/BG.webp"
+                    alt="Electric motorcycle driving along a road in sunset with a motion-blur effect" />
+            </picture>
+        </section>
+
+        <!-- parrallax animation -->
+        <section class="parallax">
+            <div class="roll-r">
+                <img class="roll" src="images/SVG/outlined.svg"
+                    alt="The following text moving across the screen: You are special Electric">
+            </div>
+            <div class="roll-l">
+                <img class="roll" src="images/SVG/filled.svg" alt="You are special Electric">
+            </div>
+            <div class="roll-r roll-r2">
+                <img class="roll" src="images/SVG/outlined.svg" alt="You are special Electric">
+            </div>
+        </section>
+
+
+        <!-- technical overlay -->
+        <div class="section4">
+            <section class="technical-overlay">
+
+                <picture class="lightmode-hero">
+                    <source media="(min-width: 900px)" srcset="images/tech-overlay/TO_L.webp" />
+                    <source media="(min-width: 600px)" srcset="images/tech-overlay/TO_L_700.webp" />
+                    <source media="(min-width: 0px)" srcset="images/tech-overlay/TO_L_400.webp" />
+                    <button class="tech-btn1"></button>
+                    <button class="tech-btn2"></button>
+                    <button class="tech-btn3"></button>
+                    <img class="tech" src="images/tech-overlay/TO_L.webp"
+                        alt="Motorcycle in a studio with a technical overlay" />
+                </picture>
+                <!-- darkmode -->
+                <picture class="darkmode-hero">
+                    <source media="(min-width: 900px)" srcset="images/tech-overlay/TO_D.webp" />
+                    <source media="(min-width: 600px)" srcset="images/tech-overlay/TO_D_700.webp" />
+                    <source media="(min-width: 0px)" srcset="images/tech-overlay/TO_D_400.webp" />
+                    <button class="tech-btn1"></button>
+                    <button class="tech-btn2"></button>
+                    <button class="tech-btn3"></button>
+                    <img class="tech" src="images/tech-overlay/TO_D.webp"
+                        alt="Motorcycle in a studio with a technical overlay" />
+                </picture>
+
+            </section>
+        </div>
+
+        <!-- assets -->
+        <section>
+            <h2>Be Electric!</h2>
+
+            <div class="asset-group">
+                <div class="assets-description">
+                    <p>
+                        Our new smart watch includes digital maps,
+                        schedulers a personal organizers, calculator, and
+                        various kinds of watch faces. The watch communicates
+                        with external devices such as sensors, wireless
+                        headsets and heads-up display.
+                    </p>
+                </div>
+
+                <div class="asset-img">
+                    <img src="images/grid-images/watch.webp"
+                        alt="A smart watch with the electric logo as its display" />
+                    <div class="asset-overlay">
+                        <a href="#">
+                            <h3 class="add-to-cart">Add To Cart</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="asset-group">
+                <div class="asset-img">
+                    <img src="images/grid-images/phone_case.webp" alt="Black phone case with the electric logo" />
+                    <div class="asset-overlay">
+                        <a href="#">
+                            <h3 class="add-to-cart">Add To Cart</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="assets-description">
+                    <p>
+                        Today, your mobile phone is more than just a phone - It is a fashion accessory
+                        that adds a little something extra to your outfit. The Electric Phone Case has
+                        superior drop protection and added functionality in a slim & sleek design.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- second newsletter -->
+        <section class="special hidden">
+            <div class="box1">
+                <h2>Join our newsletter!</h2>
+                <p> Sign up if you want the latest information on our new product, Electric.
+                    We will send you updates on produciton and stay in touch with you before
+                    the launch of our new revolutionary motorcycle. Be the first one to know!
+                </p>
+            </div>
+            <div class="box2">
+                <form action="">
+                    <input type="text" role="name-input" placeholder="Your name *"><br>
+                    <input type="email" role="email-input" placeholder="Your e-mail *"><br>
+                    <button class="submit"><span>Notify me </span><i class="fas fa-long-arrow-alt-right"></i></button>
+                </form>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <ul>
+            <li><a href="https://www.peugeot.se/foretag/peugeot-foretagsforsaljning.html"> PEUGEOT – COMPANY</a></li>
+            <li><a href="https://www.peugeot.se/servicetjanster/service-och-underhall/peugeot-assistans.html"> PEUGEOT
+                    ASSISTANT+</a></li>
+            <li><a href="https://www.peugeot.se/om-peugeot/kontakta-oss.html"> CONTACT</a></li>
+            <li><a href="https://www.peugeot.se/om-peugeot/peugeot-sverige.html"> ABOUT</a></li>
+        </ul>
+        <div class="socialMedia">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

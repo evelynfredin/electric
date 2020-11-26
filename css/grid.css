@@ -1,0 +1,59 @@
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 1rem;
+}
+
+.item-1 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.item-2,
+.item-3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 500px) {
+    .grid {
+        display: none;
+    }
+}
+
+/* assets */
+
+.section5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.section5 p {
+    margin: auto;
+}
+.section5 img {
+    width: 100%;
+    height: 100%;  
+}
+.asset .asset-overlay {
+    background-color: black;
+    position: absolute;
+    opacity: 0.7;
+    transition: .5s ease;
+    width: 40%;
+    height: 40%;
+}
+.asset h2 {
+    margin: auto 35%;
+    margin-top: 45%;
+}
+.asset:hover .asset-overlay {
+    opacity: 0.7;
+}

@@ -1,0 +1,95 @@
+@media (prefers-color-scheme: light) {
+    :root {
+        --bg: #f4f4f4;
+        --color: #162133;
+        --button: #be948f;
+        --inverted-color: #f0f7fd;
+        --inverted-bg: #a96769; 
+        --footer-bg: #162133;
+    }
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #162133;
+        --color: #f0f7fd;
+        --button: #a96769;
+        --inverted-color: #f0f7fd;
+        --inverted-bg: #c48c85;
+        --footer-bg: #121212;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    .darkmode-hero {
+        display: none;
+    }
+}
+@media (prefers-color-scheme: dark) {
+    .lightmode-hero {
+        display: none;
+    }
+}
+
+body {
+    background-color: var(--bg);
+}
+
+/* mobile */
+@media screen and (max-width: 500px) {
+    .content-wrapper {
+        margin: auto;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .you-are-special {
+        width: 100%;
+    }
+    .section5 {
+        flex-direction: column;
+    }
+}
+/* smaller ipad */
+@media screen and (min-width: 500px) {
+    .content-wrapper {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .special {
+        width: 100%;
+    }
+
+    .you-are-special {
+        width: 100%;
+    }
+}
+/* larger ipad */
+@media screen and (min-width: 700px) {
+    .content-wrapper {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    /* When screen size is between 0 and 950px */
+
+    .special {
+        flex-direction: column;
+        margin: 3rem auto;
+    }
+
+    .special .box1 {
+        width: 100%;
+    }
+
+    .special .box2 {
+        width: 100%;
+        margin: 2rem auto;
+    }
+
+    form {
+        width: 65%;
+        margin: 0 auto;
+    }
+}
