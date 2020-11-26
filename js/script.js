@@ -61,8 +61,14 @@ techBtn3.addEventListener("click", function () {
 });
 
 // Dropdown menu
+
+
 dropdownHover.addEventListener('mouseover', () => {
     subitem.classList.add('show');
+});
+
+dropdownHover.addEventListener('click', () => {
+    subitem.classList.toggle('show');
 });
 
 dropdownHover.addEventListener('mouseout', () => {
