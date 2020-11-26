@@ -9,7 +9,7 @@
     margin: auto;
 }
 .assets-description p {
-    padding: 5rem
+    padding: 2rem 5rem;
 }
 .asset-img {
     position: relative;
@@ -64,7 +64,6 @@
         height: 100%;
         margin: 2rem auto;
         order: 2;
-        
     }
     .asset-overlay {
         background-color: black;
@@ -80,8 +79,8 @@
     }
 }
 @media screen and (max-width: 500px) {
-.assets-description p {
-    padding: 1rem;
-    margin-bottom: 2rem;
-}
+    .assets-description p {
+        padding: 1rem;
+        margin-bottom: 2rem;
+    }
 }
