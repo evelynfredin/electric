@@ -102,11 +102,10 @@
                         <img src="images/grid-images/INT_1.webp" alt="interior of the motorcycle" />
                     </div>
                     <div class="item" id="item02">
-                        <img src="images/grid-images/opencycle.webp" alt="close-up of the backtire" />
+                        <img src="images/grid-images/opencycle.webp" alt="The hood is open, Top-down, technical car platform" />
                     </div>
                     <div class="item" id="item03">
-                        <img src="images/grid-images/INT_3.webp"
-                            alt="The hood is open,Top-down,technical car platform" />
+                        <img src="images/grid-images/Detail_render.webp" alt="close-up of the backtire" />
                     </div>
                     <div class="manualNavigation">
                         <label class="label" id="label01" for="radio01"></label>
@@ -124,7 +123,7 @@
                 <div class="item-2"><img src="images/grid-images/INT_1.webp" alt="motorcycle interior"></div>
 
 
-                <div class="item-3"><img src="images/grid-images/INT_3.webp" alt="close-up of the back tire"></div>
+                <div class="item-3"><img src="images/grid-images/Detail_render.webp" alt="close-up of the back tire"></div>
             </section>
 
             <!-- history block -->
@@ -155,13 +154,19 @@
                 <img class="environment" src="images/environment/ENV_D.webp"
                     alt="a woman and man standing next to the Electric motorcycle with a futuristic building as a back-drop" />
             </picture>
-            <!-- alternating image test-->
-            <picture class=lightmode-hero id="movement">
-                <img class="environment" id="alternating" src="images/environment/BG.webp"
+            <!-- alternating (motion) image-->
+            <picture class="lightmode-hero" id="movement">
+                <source media="(min-width: 950px)" srcset="images/motion/MB.webp" />
+                <source media="(min-width: 800px)" srcset="images/motion/MB_700.webp" />
+                <source media="(min-width: 0px)" srcset="images/motion/MB_500.webp" />
+                <img class="environment" id="alternating" src="images/motion/MB.webp"
                     alt="Electric motorcycle driving along a road in sunset with a motion-blur effect" />
             </picture>
-            <picture class=darkmode-hero id="movement">
-                <img class="environment" id="alternating" src="images/environment/BG.webp"
+            <picture class="darkmode-hero" id="movement">
+                <source media="(min-width: 950px)" srcset="images/motion/MB.webp" />
+                <source media="(min-width: 800px)" srcset="images/motion/MB_700.webp" />
+                <source media="(min-width: 0px)" srcset="images/motion/MB_500.webp" />
+                <img class="environment" id="alternating" src="images/environment/MB.webp"
                     alt="Electric motorcycle driving along a road in sunset with a motion-blur effect" />
             </picture>
         </section>
