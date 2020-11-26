@@ -63,6 +63,12 @@ body {
     .you-are-special {
         width: 100%;
     }
+    .logo {
+        height: 2rem;
+    }
+    nav {
+        margin-bottom: 1rem;
+    }
 }
 /* larger ipad */
 @media screen and (min-width: 700px) {
@@ -89,7 +95,7 @@ body {
     }
 
     form {
-        width: 65%;
-        margin: 0 auto;
+        width: 50%;
+        margin: 1rem auto;
     }
 }

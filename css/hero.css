@@ -2,8 +2,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1rem 1rem;
-    margin-bottom: 0px;
+    margin: 1rem;
     height: 70px;
 }
 
@@ -23,6 +22,7 @@ nav ul {
 
 nav ul li {
     margin: 0 0 0 4rem;
+    margin-top: 1rem;
 }
 
 nav ul li a {
